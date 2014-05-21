@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 1280 x 720 -->
+
+
+    <!-- FONT SIZE -->
+    <dimen name="font_small">15sp</dimen>
+    <dimen name="font_agrement">17sp</dimen>
+    <dimen name="font_normal">19sp</dimen>
+    <dimen name="font_large">23sp</dimen>
+    <dimen name="font_xlarge">25sp</dimen>
+    <dimen name="font_xxlarge">29sp</dimen>
+    <dimen name="font_xxxlarge">38sp</dimen>
+    <dimen name="font_xxxxlarge">62sp</dimen>
+
+    <!-- Margine -->
+
+    <dimen name="margin_small">7dp</dimen>
+    <dimen name="margin_normal">11dp</dimen>
+    <dimen name="margin_large">17dp</dimen>
+    <dimen name="margin_xlarge">22dp</dimen>
+    <dimen name="margin_xxlarge">33dp</dimen>
+    <dimen name="margin_xxxlarge">48dp</dimen>
+
+    <!-- Registration Topbar Height -->
+    <dimen name="regi_topbar_height">60dp</dimen>
+
+</resources>

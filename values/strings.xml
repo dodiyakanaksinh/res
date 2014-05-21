@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name="app_name">The IndiaNIC</string> -->
+    <string name="app_name">Bungalow</string>
+    <string name="home_tab">Home</string>
+    <string name="contact_tab">Contact</string>
+    <string name="menu_tab">Menu</string>
+    <string name="gallery_tab">Gallery</string>
+    <string name="blog_tab">Blog</string>
+    <string name="specials_tab">Special Dish</string>
+    <string name="coupons_tab">Coupons</string>
+    <string name="giftcertificate_tab">Gift Certificate</string>
+    <string name="tablereservation_tab">Table Reservation</string>
+    <string name="pickuporders_tab">Place Orders</string>
+    <string name="bookevent_tab">Event Bookings</string>
+    <string name="catering_tab">Outdoor Catering</string>
+    <string name="calendar_tab">Calendar</string>
+    <string name="feedback_tab">Feedback</string>
+    <string name="more_tab">More</string>
+    <string name="admin_tab">Admin</string>
+    <string name="mystuff_tab">My Stuff</string>
+    <string name="calendardetail_tab">Event Detail</string>
+    <string name="giftcertificatepayment_tab">Pay Now</string>
+    <string name="theme_obj">Theme</string>
+    <string name="event_obj">Event</string>
+    <string name="gift_obj">Gift</string>
+    <string name="stuff_obj">Stuff</string>
+    <string name="pick_obj">PickUp</string>
+    <string name="table_obj">Table</string>
+    <string name="database_obj">database</string>
+    <string name="splash_tag">Spalsh</string>
+
+    <!-- Shared Preference -->
+    <string name="pref_name">TopChef</string>
+    <string name="last_update_time">lastUpdateTime</string>
+    <string name="activity_suffix">Activity</string>
+    <string name="pref_first_launch">firstlaunch</string>
+    <string name="pref_device_registered">deviceregistered</string>
+    <string name="pref_device_customer_id">customerID</string>
+    <string name="pref_device_customer_firstName">firstName</string>
+    <string name="pref_device_customer_lastName">lastName</string>
+    <string name="pref_device_customer_email">email</string>
+    <string name="pref_device_customer_phone_number">phoneNum</string>
+
+    <!-- <string name="pref_isadmin">isadmin</string> -->
+    <string name="async_name">android.os.AsyncTask</string>
+    <string name="pref_hasapprun">hasAppRun</string>
+    <string name="pref_hasadminrun">hasAdminRun</string>
+    <string name="pref_lastupdatetime">lastUpdateTime</string>
+    <string name="pref_lastadminupdatetime">lastAdminUpdateTime</string>
+    <string name="pref_isdatabasecreated">isDatabaseCreated</string>
+    <string name="pref_restaurant_name">restaurantname</string>
+    <string name="pref_isRegisterNewUser">isRegisterNewUser</string>
+    <string name="pref_validateAdminCode">isAdminCode</string>
+    <string name="pref_isSkipAdmim">isSkipAdmin</string>
+    <string name="pref_VarificationDone">isVarificationDone</string>
+    <string name="pref_hex_code">hexCode</string>
+
+    <!-- Extra -->
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="events">Events</string>
+    <string name="month_format">MMMM yyyy</string>
+    <string name="passing_dateformat">yyyy-MM-dd</string>
+    <string name="day_format">dd</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="fifteen">15</string>
+    <string name="sixteen">16</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="pdt_format">MMM dd, yyyy HH:mm z</string>
+    <string name="loading_data">Loading...please wait</string>
+    <string name="likes">Likes</string>
+    <string name="comments">Comments</string>
+    <string name="name">Name     *</string>
+    <string name="leave_comment">Leave a Comment     *</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="enter_comment">Please enter your comment</string>
+    <string name="already_liked">You have already liked this </string>
+
+    <!-- <string name="common_url">http://dev.indianic.com/dinerockr/</string> -->
+
+
+    <!-- Common Url For TopChef Application -->
+    <!-- <string name="common_url">http://staging.indianic.com/on_fly_restaurant/</string> -->
+    <!-- <string name="common_url"> http://staging.topchef.com.ng/</string> -->
+
+    <string name="common_url">http://www.topchef.com.ng/</string>
+    <string name="url_prefix">web_service.php?</string>
+
+    <!-- Common Url For BizRocker Application -->
+    <!--
+    <string name="common_url">http://www.dinerockr.com/</string>
+    <string name="url_prefix">web_service.php?</string>
+    -->
+
+    <string name="gift_url">media/app/app_1/module/gift/</string>
+    <string name="gallery_url">media/app/app_1/module/gallery/</string>
+    <string name="contact_url">media/app/app_1/module/contact/</string>
+    <string name="rest_url">media/app/app_1/module/</string>
+    <string name="menu_item_url">media/app/app_1/module/</string>
+
+    <!-- Twitter -->
+    <string name="already_twitted">This message is already twitted.</string>
+    <string name="posted_successfully">Successfully updated the status.</string>
+    <string name="wait">Updating twitter status...</string>
+    <string name="loading_msg">Please wait while loading...</string>
+    <string name="twitter_success_post">Twitter post successfully.</string>
+    <string name="twitter_error_post">Twitter post error.</string>
+    <string name="register_wait">please wait...</string>
+
+    <!-- Facebook -->
+    <!--
+         <string name="fb_app_id">237284419769657</string>
+    <string name="fb_app_secret_id">cf9d6ac223f0230b00b929ade32e5261</string>
+    -->
+    <!-- New FaceBook Key - Date 10 April 2014 -->
+
+    <string name="fb_app_id">612840868808908</string>
+    <string name="fb_app_secret_id">a5fd18a9dded029184ed4e723258246f</string>
+
+    <!-- Css Files -->
+    <string name="css_general">css/general.css</string>
+    <string name="css_red">css/general_red.css</string>
+    <string name="css_blue">css/general_blue.css</string>
+    <string name="css_black">css/general_black.css</string>
+    <string name="css_green">css/general_green.css</string>
+    <string name="css_orange">css/general_orange.css</string>
+
+    <!-- New Css File Add By Kanaksinh Dodiya at 28 Oct 2013 -->
+
+    <string name="css_brown">css/general_brown.css</string>
+    <string name="css_golden">css/general_golden.css</string>
+    <string name="css_grey">css/general_grey.css</string>
+    <string name="css_maroon">css/general_maroon.css</string>
+    <string name="css_purple">css/general_purple.css</string>
+
+    <!-- Theme -->
+    <string name="theme_red">red</string>
+    <string name="theme_blue">blue</string>
+    <string name="theme_black">black</string>
+    <string name="theme_green">green</string>
+    <string name="theme_orange">orange</string>
+
+    <!-- New Theme  Add By Kanaksinh Dodiya at 28 Oct 2013 -->
+
+    <string name="theme_maroon">maroon</string>
+    <string name="theme_purple">purple</string>
+    <string name="theme_brown">brown</string>
+    <string name="theme_golden">golden</string>
+    <string name="theme_grey">grey</string>
+    <string name="app_name_image_folder">TheTopChef</string>
+    <string name="folder_downloaded_topchef_images">WingsRestaurant</string>
+    <string name="folder_downloaded_gallery_thumb_images">GalleryThumbImage</string>
+    <string name="folder_downloaded_gallery_Original_images">GalleryLargeImage</string>
+    <string name="folder_downloaded_menu_thumb_images">MenuThumbImage</string>
+    <string name="folder_downloaded_menu_Original_images">MenuLargeImage</string>
+    <string name="folder_downloaded_special_large_images">SpecialLargeImage</string>
+    <string name="folder_downloaded_contact_map_images">ContactMapImage</string>
+    <string name="folder_downloaded_coupons_images">CouponImages</string>
+    <string name="folder_downloaded_table_reservation_images">TableReservationImages</string>
+    <string name="folder_downloaded_book_event_images">BookEventImages</string>
+    <string name="folder_downloaded_catering_images">CateringImages</string>
+    <string name="folder_downloaded_gift_certificate_images">GiftCertificateImages</string>
+    <string name="folder_downloaded_home_map_images">HomeImages</string>
+
+    <!-- C2DM -->
+    <string name="c2dm_registered_id">sandil.shah@indianic.com</string>
+
+    <!-- Not found values -->
+    <string name="norecordfound">No record found.</string>
+    <string name="no_notification">No notification available.</string>
+    <string name="no_specialmodule">Special module is not available.</string>
+
+    <!-- GCM Sender ID : App - 1099 -->
+    <!-- <string name="sender_id">220434231271</string> -->
+    <!-- GCM Sender ID : App - 1497 -->
+    <!-- <string name="sender_id">294017955446</string> -->
+
+
+    <!-- GCM Sender ID : Bungalow App - 2263 -->
+    <string name="sender_id">268917621519</string>
+
+    <!-- Sharing -->
+    <string name="sharing_text">Check out this %1$s at - %2$s. %3$s %4$s %5$s %6$s %7$s - %8$s</string>
+    <!-- <string name="sharing_text">Check out this %1$s at - %2$s. %3$s %4$s %5$s %6$s %7$s - %8$s %9$s - %10$s</string> -->
+
+    <string name="sharing_text_photo">photo</string>
+    <string name="sharing_text_delicious_meal">Delicious meal</string>
+    <string name="sharing_text_sepcial">Special</string>
+    <string name="sharing_text_coupon">Coupon</string>
+    <string name="sharing_text_event">Event</string>
+    <string name="sharing_text_source">Source:</string>
+    <string name="sharing_text_android">Android App</string>
+    <!-- <string name="sharing_text_iphone"></string> -->
+
+
+    <!-- Messages -->
+    <string name="please_wait">Please wait...</string>
+    <string name="no_internet_connection">Internet connection not available.</string>
+    <string name="could_not_refresh">Could not refresh the data.</string>
+    <string name="server_not_responding">Server is not responding, Please try after sometime.</string>
+    <string name="unknown_error_occured">Some unknown error occured.</string>
+    <string name="no_data">No data available.</string>
+    <string name="delete_comment_confirmation">Are you sure you want to delete this comment ?</string>
+    <string name="delete">Delete</string>
+
+    <!-- Registration Screen -->
+
+    <string name="registration_title">Know You More</string>
+    <string name="registration_first_name">First Name</string>
+    <string name="registration_last_name">Last Name</string>
+    <string name="registration_email">Email</string>
+    <!-- <string name="registration_contact">Contact</string> -->
+    <string name="registration_contact">Phone Number</string>
+    <string name="registration_submit">Next</string>
+    <string name="regi_validate_firstName">Please enter first name.</string>
+    <string name="regi_validate_lastName">Please enter last name.</string>
+    <string name="regi_validate_email">Please enter email address.</string>
+    <string name="regi_validate_contact">Please enter phone number.</string>
+    <string name="regi_valid_contact">Phone number should be minimum 6 and maximum 11 characters.</string>
+    <string name="regi_mendetary">*</string>
+    <string name="validate_check_email">Please enter valid email.</string>
+    <string name="validate_check_code">Please enter valid code.</string>
+
+    <!-- Admin Verification Screen -->
+    <string name="admin_verification_title">Admin Verificaton</string>
+    <string name="admin_verification_question">*For Admin user only</string>
+    <string name="admin_verification_enter_reference_code">Enter Restaurant code</string>
+    <string name="admin_verification_verify">Verify</string>
+    <string name="admin_verification_code">code</string>
+    <string name="admin_verification_skip">Skip</string>
+    <string name="intent_isComeFromMyStuff">isComeFromMyStuff</string>
+
+    <!-- Html Entery In Database Table -->
+
+    <string name="html_str_placeOrder">placeOrder</string>
+
+    <!-- PickupItemOrderDetailActivity -->
+
+    <string name="submit_request">Submit Request</string>
+    <string name="alert_first_name">Please enter first name.</string>
+    <string name="alert_empty_name">Please enter name.</string>
+    <string name="alert_last_name">Please enter last name.</string>
+    <string name="alert_empty_date">Please enter Date / Time.</string>
+    <string name="alert_empty_email">Please enter email.</string>
+    <string name="alert_valid_email">Please enter valid email.</string>
+    <string name="alert_empty_number">Please enter phone number.</string>
+
+    <!-- Payment for PickupOrder Activity -->
+
+    <string name="payment_url">http://www.topchef.com.ng/payment.php?</string>
+    <string name="payment_place_order">app_id=%1$s&amp;customer_id=%2$s&amp;user_id=%3$s&amp;mod=pickuporder&amp;data=%4$s</string>
+
+</resources>

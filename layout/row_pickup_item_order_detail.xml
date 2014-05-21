@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_small"
+    android:layout_marginLeft="@dimen/margin_normal"
+    android:layout_marginRight="@dimen/margin_normal" >
+
+    <RelativeLayout
+        android:id="@+id/ll_menu_item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background_border_corner" >
+
+        <TextView
+            android:id="@+id/row_place_order_tv_total_txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="@dimen/margin_normal"
+            android:text="8 for all Combo"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_agrement" />
+
+        <TextView
+            android:id="@+id/row_place_order_tvl_txt_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text="250(123)"
+            android:textColor="@color/red"
+            android:textSize="@dimen/font_agrement" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Values Folder- 1920 x 1080 -->
+
+
+    <!-- FONT SIZE -->
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_agrement">19sp</dimen>
+    <dimen name="font_normal">20sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+    <dimen name="font_xlarge">26sp</dimen>
+    <dimen name="font_xxlarge">30sp</dimen>
+    <dimen name="font_xxxlarge">40sp</dimen>
+    <dimen name="font_xxxxlarge">64sp</dimen>
+
+    <!-- Margine -->
+
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_normal">12dp</dimen>
+    <dimen name="margin_large">20sp</dimen>
+    <dimen name="margin_xlarge">25sp</dimen>
+    <dimen name="margin_xxlarge">35sp</dimen>
+    <dimen name="margin_xxxlarge">40sp</dimen>
+
+    <!-- Registration Topbar Height -->
+    <dimen name="regi_topbar_height">70dp</dimen>
+
+</resources>

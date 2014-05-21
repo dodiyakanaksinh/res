@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_registration"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/activity_admin_verification_relative_TitleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/margin_xxxlarge"
+        android:layout_alignParentTop="true"
+        android:background="#505E6B"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/activity_admin_verification_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:text="@string/admin_verification_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_xlarge"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/activity_admin_verification_txt_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_admin_verification_relative_TitleLayout"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="@string/admin_verification_enter_reference_code"
+        android:textColor="@color/black_light"
+        android:textSize="@dimen/font_agrement"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/activity_admin_verification_txt_verificationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_admin_verification_txt_question"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:text="@string/admin_verification_question"
+        android:textColor="@color/red_light"
+        android:textSize="@dimen/font_small"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/activity_admin_verification_edt_verification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_admin_verification_txt_verificationCode"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:background="@drawable/edittext_background_border_corner"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/margin_small"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_small" >
+    </EditText>
+
+    <Button
+        android:id="@+id/activity_admin_verification_btn_verify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/activity_admin_verification_edt_verification"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:background="@drawable/bg_registration_btn"
+        android:text="@string/admin_verification_verify"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/activity_admin_verification_img_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_admin_verification_btn_verify"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:contentDescription="@null"
+        android:src="@drawable/or_btn" />
+
+    <Button
+        android:id="@+id/activity_admin_verification_btn_skip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_admin_verification_img_divider"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:background="@drawable/bg_admin_verification_btn_gray"
+        android:text="@string/admin_verification_skip"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_large" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/row_place_order_tv_total_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingTop="5dp"
+        android:text="Total"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_agrement"
+        android:textStyle="bold" />
+
+  </RelativeLayout>

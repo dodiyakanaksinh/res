@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/row_activity_pickup_order_rl_itemDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_toLeftOf="@+id/row_pickup_order_child" >
+
+        <ImageView
+            android:id="@+id/row_pickup_order_child_iv_itemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/row_pickup_order_child_tv_item_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/row_pickup_order_child_iv_itemImage"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/row_pickup_order_child_iv_itemImage"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_agrement"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/row_pickup_order_child_tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/row_pickup_order_child_iv_itemImage"
+            android:layout_alignLeft="@+id/row_pickup_order_child_tv_item_Name"
+            android:layout_below="@+id/row_pickup_order_child_tv_item_Name"
+            android:textColor="@color/red"
+            android:textSize="@dimen/font_small"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/row_pickup_order_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_small"
+        android:paddingBottom="@dimen/margin_normal" >
+
+        <CheckBox
+            android:id="@+id/row_pickup_order_chk_select_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/selector_check"
+            />
+
+        <EditText
+            android:id="@+id/row_pickup_order_edt_enter_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background_border_corner"
+            android:ems="2"
+            android:enabled="false"
+            android:hint="Qyt"
+            android:layout_marginTop="@dimen/margin_small"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="3"
+            android:paddingLeft="@dimen/margin_small"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

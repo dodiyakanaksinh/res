@@ -1,0 +1,68 @@
+9
+
+dir
+824
+https://10.2.1.98/projects/on_fly_restaurant/Code/Android/Bungalow_2263_Native_PlaceOrder/res
+https://10.2.1.98/projects/on_fly_restaurant
+
+
+
+2014-05-13T10:13:16.199655Z
+824
+kanaksinh.dodiya
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+314d421e-9430-4016-aea5-789ac04819cf
+
+
+
+
+
+
+0
+
+anim
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+
+values
+dir
+
+values-1920x1080
+dir
+
+values-hdpi
+dir
+
+values-xhdpi
+dir
+

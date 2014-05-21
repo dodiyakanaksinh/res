@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/row_place_order_tv_group_item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="Appetizers"
+        android:textColor="#000000"
+        android:paddingLeft="@dimen/margin_small"
+        android:textSize="@dimen/font_agrement"
+        android:textStyle="bold" />
+
+</LinearLayout>

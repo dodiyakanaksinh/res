@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_registration_relative_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_registration" >
+
+    <RelativeLayout
+        android:id="@+id/activity_registration_relative_TitleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/margin_xxxlarge"
+        android:layout_alignParentTop="true"
+        android:background="#505E6B"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/activity_registration_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:text="@string/registration_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_xlarge"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/activity_registration_relative_TitleLayout"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/activity_registration_relative_registrationForm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_normal" >
+
+                <LinearLayout
+                    android:id="@+id/activity_registration_lin_firstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/margin_xlarge"
+                    android:weightSum="2" >
+
+                    <EditText
+                        android:id="@+id/activity_registration_edt_firstName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:background="@drawable/edittext_background_border_corner"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:paddingLeft="@dimen/margin_small"
+                        android:hint="@string/registration_first_name"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/activity_registration_txt_firstName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:paddingBottom="@dimen/font_xxlarge"
+                        android:text="@string/regi_mendetary"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/font_small"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/activity_registration_lin_lastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/activity_registration_lin_firstName"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:weightSum="2" >
+
+                    <EditText
+                        android:id="@+id/activity_registration_edt_lastName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.9"
+                        android:paddingLeft="@dimen/margin_small"
+                        android:hint="@string/registration_last_name"
+                        android:textStyle="bold"
+                        android:background="@drawable/edittext_background_border_corner"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/activity_registration_txt_lastName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:paddingBottom="@dimen/font_xxlarge"
+                        android:text="@string/regi_mendetary"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/font_small"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/activity_registration_lin_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/activity_registration_lin_lastName"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:weightSum="2" >
+
+                    <EditText
+                        android:id="@+id/activity_registration_edt_mail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.9"
+                        android:paddingLeft="@dimen/margin_small"
+                        android:hint="@string/registration_email"
+                        android:textStyle="bold"
+                        android:background="@drawable/edittext_background_border_corner"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/activity_registration_txt_mail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:paddingBottom="@dimen/font_xxlarge"
+                        android:text="@string/regi_mendetary"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/font_small"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/activity_registration_lin_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/activity_registration_lin_email"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_normal"
+                    android:weightSum="2" >
+
+                    <EditText
+                        android:id="@+id/activity_registration_edt_contact"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.9"
+                        android:background="@drawable/edittext_background_border_corner"
+                        android:digits="0123456789"
+                        android:inputType="number"
+                        android:paddingLeft="@dimen/margin_small"
+                        android:hint="@string/registration_contact"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:maxLength="11"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/activity_registration_txt_contact"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:paddingBottom="@dimen/font_xxlarge"
+                        android:text="@string/regi_mendetary"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/font_small"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/activity_registration_btn_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/activity_registration_lin_contact"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:background="@drawable/bg_registration_btn"
+                    android:gravity="center"
+                    android:text="@string/registration_submit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_large"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

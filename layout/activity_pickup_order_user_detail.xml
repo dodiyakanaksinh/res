@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maroon_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:id="@+id/rl_next_previous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_large" >
+
+        <ImageButton
+            android:id="@+id/activity_pickup_order_ivbtn_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:background="@drawable/left_arrow" />
+
+        <ImageButton
+            android:id="@+id/activity_pickup_order_ivbtn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_user_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_next_previous"
+        android:layout_below="@+id/common_header"
+        android:layout_margin="@dimen/margin_normal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edt_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/edittext_background_border_corner"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="@dimen/margin_small" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/edittext_background_border_corner"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="@dimen/margin_small" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/edittext_background_border_corner"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/margin_small" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/edittext_background_border_corner"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:paddingLeft="@dimen/margin_small" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/edt_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/edittext_background_border_corner"
+            android:ems="10"
+            android:hint="Pickup Time"
+            android:textColor="@color/black"
+            android:paddingLeft="@dimen/margin_small"
+            android:textSize="@dimen/font_normal" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edt_special_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background_border_corner"
+            android:ems="10"
+            android:hint="Special Insrtructions"
+            android:inputType="text"
+            android:paddingLeft="@dimen/margin_small" >
+        </EditText>
+    </LinearLayout>
+
+</RelativeLayout>

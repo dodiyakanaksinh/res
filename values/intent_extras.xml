@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_id">item_id</string>
+    <string name="mod_id">mod_id</string>
+    <string name="tab_order">tab_order</string>
+    <string name="page_type">page_type</string>
+</resources>

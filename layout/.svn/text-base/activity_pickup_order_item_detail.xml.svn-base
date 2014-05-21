@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maroon_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_total_menu_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/place_order_total_btn_place_order" >
+
+            <TextView
+                android:id="@+id/row_place_order_tv_total_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_normal"
+                android:paddingTop="5dp"
+                android:text="Total"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/font_agrement"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/ll_menu_item_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/row_place_order_tv_total_header"
+                android:background="@drawable/edittext_background_border_corner" >
+
+                <TextView
+                    android:id="@+id/row_place_order_tv_total_txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:text="Total"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/font_agrement" />
+
+                <TextView
+                    android:id="@+id/row_place_order_txt_total_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="250(123)"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/font_agrement" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/place_order_total_btn_place_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="@string/submit_request"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_agrement" />
+
+        <ExpandableListView
+            android:id="@+id/place_order_total_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_total_menu_item"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:childDivider="@android:color/transparent"
+            android:childIndicator="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="2dp"
+            android:groupIndicator="@android:color/transparent"
+            android:listSelector="@android:color/transparent" />
+    </RelativeLayout>
+
+</LinearLayout>
